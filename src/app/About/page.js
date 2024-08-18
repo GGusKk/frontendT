@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function About() {
   return (
     <>
-    <br /><br /><br />
+      <br /><br /><br />
       <div style={{ backgroundColor: '#f0f4f8', padding: '40px 20px' }}>
         <div className="container">
           <h1 className="text-center mb-4" style={{ color: '#0078d4' }}>Phantasy Star Online 2 Updates</h1>
@@ -109,6 +109,90 @@ export default function About() {
                   <Link href="https://store.epicgames.com/th/p/phantasy-star-online-2" passHref>
                     <button className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                       Get it on Epic Games
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Image Section */}
+          <div className="row">
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <Link href="https://pso2.com/players/update/2024-08/?bg=s_628" passHref>
+                  <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+                    <Image 
+                      src="/assets/img/104.png" 
+                      alt="New Image 1" 
+                      layout="fill" 
+                      objectFit="cover"
+                      className="card-img-top"
+                    />
+                  </div>
+                </Link>
+                <div className="card-body">
+                  <h5 className="card-title" style={{ color: '#000' }}>Update August 2024</h5>
+                  <p className="card-text" style={{ color: '#000' }}>
+                    Check out the latest updates for August 2024 and what's new in the game.
+                  </p>
+                  <Link href="https://pso2.com/players/update/2024-08/?bg=s_628" passHref>
+                    <button className="btn btn-primary">
+                      Learn More
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <Link href="https://pso2.com/players/fashionitems/20240807/index.html?bg=s_633" passHref>
+                  <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+                    <Image 
+                      src="/assets/img/105.png" 
+                      alt="New Image 2" 
+                      layout="fill" 
+                      objectFit="cover"
+                      className="card-img-top"
+                    />
+                  </div>
+                </Link>
+                <div className="card-body">
+                  <h5 className="card-title" style={{ color: '#000' }}>Fashion Items August 2024</h5>
+                  <p className="card-text" style={{ color: '#000' }}>
+                    Discover the latest fashion items added to the game in August 2024.
+                  </p>
+                  <Link href="https://pso2.com/players/fashionitems/20240807/index.html?bg=s_633" passHref>
+                    <button className="btn btn-primary">
+                      Learn More
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <Link href="https://pso2.com/players/fashionitems/20240717/index.html?bg=s_622" passHref>
+                  <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+                    <Image 
+                      src="/assets/img/101.png" 
+                      alt="New Image 3" 
+                      layout="fill" 
+                      objectFit="cover"
+                      className="card-img-top"
+                    />
+                  </div>
+                </Link>
+                <div className="card-body">
+                  <h5 className="card-title" style={{ color: '#000' }}>Fashion Items July 2024</h5>
+                  <p className="card-text" style={{ color: '#000' }}>
+                    Check out the new fashion items released in July 2024.
+                  </p>
+                  <Link href="https://pso2.com/players/fashionitems/20240717/index.html?bg=s_622" passHref>
+                    <button className="btn btn-primary">
+                      Learn More
                     </button>
                   </Link>
                 </div>

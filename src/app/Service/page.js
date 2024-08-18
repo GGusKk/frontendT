@@ -13,7 +13,7 @@ export default function Service() {
             <div className="col-md-6 mb-4">
               <div className="card" style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
                 <Image 
-                  src="/assets/img/105.png" 
+                  src="/assets/img/113.png" 
                   alt="Feature 1" 
                   width={600} 
                   height={400} 
@@ -25,11 +25,11 @@ export default function Service() {
                   <p className="card-text">
                     Dive into epic quests in Phantasy Star Online 2. Experience thrilling adventures with a rich storyline and exciting gameplay.
                   </p>
-                  <Link href="https://pso2.com/lp/quests">
+                  <Link href="https://pso2.com/players/schedule/?bg=s_637">
                     Learn More
                   </Link>
                   <br />
-                  <Link href="https://pso2.com/lp/news">
+                  <Link href="https://pso2.com/players/news/">
                     Latest News
                   </Link>
                 </div>
@@ -51,11 +51,11 @@ export default function Service() {
                   <p className="card-text">
                     Customize your character with an extensive range of options. From appearance to gear, make your character truly unique.
                   </p>
-                  <Link href="https://pso2.com/lp/customization">
+                  <Link href="https://pso2.com/players/about/world/">
                     Learn More
                   </Link>
                   <br />
-                  <Link href="https://pso2.com/lp/events">
+                  <Link href="https://pso2.com/players/news/event/">
                     Upcoming Events
                   </Link>
                 </div>
@@ -67,7 +67,7 @@ export default function Service() {
             <div className="col-md-12">
               <div className="card" style={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
                 <Image 
-                  src="/assets/img/104.png" 
+                  src="/assets/img/114.png" 
                   alt="Feature 3" 
                   width={1200} 
                   height={600} 
@@ -79,11 +79,11 @@ export default function Service() {
                   <p className="card-text">
                     Join the vibrant PSO2 community and participate in various events and activities. Connect with other players and take part in exciting in-game events.
                   </p>
-                  <Link href="https://pso2.com/lp/events">
+                  <Link href="https://pso2.com/players/news/event/">
                     Explore Events
                   </Link>
                   <br />
-                  <Link href="https://pso2.com/lp/news">
+                  <Link href="https://pso2.com/players/news/FieryDunesRetemPack1215/">
                     Latest News
                   </Link>
                 </div>
