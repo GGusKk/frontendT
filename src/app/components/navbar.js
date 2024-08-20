@@ -32,9 +32,9 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={navbarStyle}>
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img src="/assets/img/110.png" alt="..." width={197} height={40} className="d-inline-block align-text-top" />
-          </a>
+          <Link className="navbar-brand" href="/" passHref>
+            <img src="/assets/img/110.png" alt="Logo" width={197} height={40} className="d-inline-block align-text-top" />
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
